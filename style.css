@@ -1,0 +1,82 @@
+*{
+    overflow: auto;
+}
+body{
+    background-color: #03a9f4;
+    color: #000051;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Piazzolla', serif;
+    box-sizing: border-box;
+}
+.container{
+    background: #e1f5fe;
+    width: 120%;
+    max-width: 500px;
+    margin: 10px auto;
+}
+h1{
+    font-family: 'Piazzolla', serif;
+    text-align: center;
+    color: #000051;
+}
+h2{
+   font-family: 'Open Sans', sans-serif;
+     text-align: center;
+    color: #000051;
+}
+h3{
+     font-family: 'Noto Sans JP', sans-serif;
+     text-align: center;
+    color: #000051;
+}
+nav{
+    text-align: center;
+    line-height: 2;
+}
+nav a, .button{
+padding: 10px 20px;
+margin: left 20px;
+color: #81d4fa;
+background: darkblue;
+border: darkslateblue 2px solid;
+text-decoration: none;
+border-radius: 20px;
+}
+nav a:hover, .button:hover{
+    color: #b3e5fc;
+    background: #4fc3f7;
+}
+img{
+    padding: 5px;
+    background: #01579b;
+    float: center;
+}
+aside{
+    clear: both;
+    box-sizing: border-box;
+    margin: 20px;
+    float: left;
+    width: 80%;
+    padding: 30px;
+    border: 5px solid #0093c4;
+}
+main{
+    box-sizing: border-box;
+    padding: 30px;
+}
+#bora-bora{
+    width: 75%;
+    float:  left;
+}
+#bora-bora2{
+    width: 30%;
+    float: left;
+}
+#bora-bora3{
+    width: 30%;
+    float: left;
+}
+footer{
+    text-align: center;
+}
